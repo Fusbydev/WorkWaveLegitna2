@@ -1,0 +1,27 @@
+body {
+    padding: 50px;
+}
+.container-fluid {
+    background-color: #6DB9EF;
+    height: 500px;
+    padding: 10px;
+    top: 50%;
+    transform: translate(0, 15%);
+    border-radius: 50px;
+}
+
+.login {
+    padding: 10px;
+    top: 50%;
+    transform: translate(0, 70%);
+}
+
+input {
+    width: 300px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+}

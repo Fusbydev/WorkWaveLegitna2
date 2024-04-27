@@ -1,0 +1,56 @@
+/* Resetting some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the grid lines */
+.container {
+    border: none;
+}
+
+/* Center the content in each column */
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Style the profile and about-us sections */
+.profile-section, .about-us-section {
+    margin-top: 20px;
+}
+
+/* Center the buttons in the profile-section */
+.profile-section button {
+    margin-top: 10px;
+}
+
+/* Style the modal content */
+.modal-content {
+    text-align: left;
+}
+
+/* Overlay style */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Responsive image styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center the image preview in the modal */
+#imagePreview {
+    margin: 10px auto;
+    display: block;
+}
